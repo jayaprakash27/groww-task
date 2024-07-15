@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const ProductCard = ({ ticker, gainLoss, onPress, logo }) => {
+const ProductCard = ({ ticker, gainLoss, onPress }) => {
     
     return (
         <TouchableOpacity
