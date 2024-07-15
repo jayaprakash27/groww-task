@@ -7,7 +7,7 @@ import { EmptyScreen } from '../components';
 import { cacheData, getCachedData } from '../lib/cache';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const API_KEY = '0A1DTP7NIQXJPFII';
+const API_KEY = 'UQZ247R01LE1O2PG';
 
 const Product = ({ route }) => {
   const { stock } = route.params;

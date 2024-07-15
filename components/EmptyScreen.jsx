@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 const EmptyScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>No Data Available</Text>
+      <Text style={styles.text}>An Error Occured!</Text>
     </SafeAreaView>
   )
 }
