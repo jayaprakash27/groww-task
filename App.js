@@ -10,8 +10,8 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Product" component={Product} />
+        <Stack.Screen name="Home" component={Home} options={{ headerShown: false  }} />
+        <Stack.Screen name="Product" component={Product} options={{ headerShown: false  }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
